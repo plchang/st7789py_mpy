@@ -2,6 +2,8 @@ import time
 from micropython import const
 import ustruct as struct
 
+foo = 1 
+
 # commands
 ST77XX_NOP = const(0x00)
 ST77XX_SWRESET = const(0x01)
