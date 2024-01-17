@@ -1,3 +1,5 @@
+from setuptools import setup, find_packages
+
 setup(
     name='st7789py_mpy',
     packages=['st7789py_mpy'],
